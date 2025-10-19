@@ -115,7 +115,6 @@ namespace Assignment4.Tests
             Assert.Equal("Beverages", product.Category.Name);
         }
 
-#if false
         [Fact]
         public void GetProductsByCategory_ValidId_ReturnsProductWithCategory()
         {
@@ -136,7 +135,6 @@ namespace Assignment4.Tests
             Assert.Equal("NuNuCa Nuﬂ-Nougat-Creme", products.First().ProductName);
             Assert.Equal("Flotemysost", products.Last().ProductName);
         }
-#endif
 
         /* orders */
         [Fact]
